@@ -4,13 +4,10 @@
     "homepage": "https://github.com/judepayne/dictim",
     "license": "MIT",
     "url": "https://github.com/judepayne/dictim/releases/download/v0.9.0.4/dictim-0.9.0.4-windows-amd64.exe",
-    "hash": "sha256:...",
+    "hash": "sha256:8c611e205dc1c03521cfe9d3be0af944d5d3aabc331ec349fab1e2b72aa20f1f",
     "bin": "dictim.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/judepayne/dictim/releases/download/v$version/dictim-$version-windows-amd64.exe",
-        "hash": {
-            "url": "$url.sha256"
-        }
+        "url": "https://github.com/judepayne/dictim/releases/download/v$version/dictim-$version-windows-amd64.exe"
     }
 }
