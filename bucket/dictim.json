@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/judepayne/dictim/releases/download/0.9.1/dict-0.9.1-windows-amd64.zip",
-            "hash": "sha256:814595ba169369fbc6633535a260898a4437bb4728d19fa75e99da2aff721a28",
+            "hash": "sha256:7320611fbf5c0224dca48065fc6845bde4abae695f8fd00d00c01a48f46e68d7",
             "bin": "dict.exe"
         }
     },
