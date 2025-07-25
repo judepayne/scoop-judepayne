@@ -1,0 +1,21 @@
+{
+    "version": "0.1.7",
+    "description": "Go library and CLI tool for converting between EDN and JSON formats",
+    "homepage": "https://github.com/judepayne/ednx",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/judepayne/ednx/releases/download/0.1.7/ednx-windows-amd64.zip",
+            "hash": "sha256:8f6bc6c94d98d56564139459a5013e3b7381a57371f98de35eba35f7c58dc154",
+            "bin": "ednx.exe"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/judepayne/ednx/releases/download/$version/ednx-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
